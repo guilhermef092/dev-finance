@@ -216,6 +216,8 @@ td.expense {
 
     opacity: 0;
     visibility: hidden;
+
+    z-index: 999;
 }
 
 .modal-overlay.active {
@@ -229,6 +231,8 @@ td.expense {
     position: relative;
     width: 90%;
     max-width: 500px;
+    z-index: 1;
+    border-radius: 0.25rem;
 }
 
 /* === Form === */
@@ -251,7 +255,7 @@ input {
     margin-top: 0.8rem;
 }
 
-.input-group small {
+.input-group .help {
     opacity: 0.4;
 }
 
