@@ -17,3 +17,8 @@ $ git clone https://github.com/guilhermef092/dev-finance.git
 
 # Inicie a aplicação
 $ Abra index.html
+
+```
+# 💻Layout
+
+<img src="./assets/layout.png">
